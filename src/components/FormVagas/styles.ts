@@ -42,4 +42,9 @@ export const BtnSearch = styled.button<
   font-size: 18px;
   color: ${(props) => (props.theme as Theme).secondary};
   cursor: pointer;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    grid-column: 1 / -1;
+  }
 `

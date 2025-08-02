@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { Theme } from '../../themes/standard'
 
 export const VagasList = styled.ul`
   display: grid;
